@@ -1,4 +1,4 @@
-package main
+package myecho
 
 import (
 	"fmt"

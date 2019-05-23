@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// 创建STS服务的Client对象，Endpoint使用默认值
-
+	AK, SK := "6a116a9e67b0420a941a8f73ee54048c", "2c0f37a18ad14a2097872a9483aa7513"
 	stsClient, err := sts.NewClient(AK, SK)
 	if err != nil {
 		fmt.Println("create sts client object :", err)
